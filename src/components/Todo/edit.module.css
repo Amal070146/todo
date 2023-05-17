@@ -1,0 +1,43 @@
+.modal {
+  position: absolute;
+  z-index: 9999;
+  width: 30%;
+  height: 100px;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+.modalcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.modalcontent input {
+  padding: 10px;
+
+  border-radius: 10px 10px 10px 10px;
+}
+.modalcontent button {
+  color: white;
+  padding: 10px;
+  background-color: #a557d1;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.modalcontent > div {
+  display: flex;
+  height: 50px;
+  gap: 10px;
+}
+
+.taskcount {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  background-color: white;
+  border-radius: 30px 30px 0px 0px;
+  padding: 10px 20px;
+}
